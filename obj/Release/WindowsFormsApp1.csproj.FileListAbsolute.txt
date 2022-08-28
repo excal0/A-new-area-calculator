@@ -1,0 +1,15 @@
+C:\Users\q'q'q\Area-calculator\bin\Release\WindowsFormsApp1.exe.config
+C:\Users\q'q'q\Area-calculator\bin\Release\WindowsFormsApp1.exe
+C:\Users\q'q'q\Area-calculator\bin\Release\WindowsFormsApp1.pdb
+C:\Users\q'q'q\Area-calculator\obj\Release\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\q'q'q\Area-calculator\obj\Release\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\q'q'q\Area-calculator\obj\Release\WindowsFormsApp1.Form1.resources
+C:\Users\q'q'q\Area-calculator\obj\Release\WindowsFormsApp1.Form2.resources
+C:\Users\q'q'q\Area-calculator\obj\Release\WindowsFormsApp1.Form3.resources
+C:\Users\q'q'q\Area-calculator\obj\Release\WindowsFormsApp1.Form4.resources
+C:\Users\q'q'q\Area-calculator\obj\Release\WindowsFormsApp1.Form5.resources
+C:\Users\q'q'q\Area-calculator\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\q'q'q\Area-calculator\obj\Release\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\q'q'q\Area-calculator\obj\Release\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\q'q'q\Area-calculator\obj\Release\WindowsFormsApp1.exe
+C:\Users\q'q'q\Area-calculator\obj\Release\WindowsFormsApp1.pdb

@@ -59,5 +59,10 @@ namespace WindowsFormsApp1
                 MessageBox.Show("边长为" + side + "英寸的正方形的面积为" + ret + "平方厘米");
             }
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
