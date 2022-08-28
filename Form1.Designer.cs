@@ -53,10 +53,10 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(279, 184);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(73, 19);
+            this.radioButton2.Size = new System.Drawing.Size(43, 19);
             this.radioButton2.TabIndex = 1;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "长方形";
+            this.radioButton2.Text = "圆";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton3
@@ -75,10 +75,10 @@
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(279, 276);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(58, 19);
+            this.radioButton4.Size = new System.Drawing.Size(73, 19);
             this.radioButton4.TabIndex = 3;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "圆形";
+            this.radioButton4.Text = "长方形";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // button1
