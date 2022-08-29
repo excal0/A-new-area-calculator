@@ -61,5 +61,12 @@ namespace WindowsFormsApp1
                 MessageBox.Show("半径为" + r + "英寸的圆的面积为" + ret + "平方厘米");
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 form1 = new Form1();
+            form1.Show();
+        }
     }
 }
