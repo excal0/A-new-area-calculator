@@ -10,6 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
+    /// <summary>
+    /// 进入三角形面积计算界面
+    /// </summary>
     public partial class Form4 : Form
     {
         public Form4()
@@ -27,18 +30,19 @@ namespace WindowsFormsApp1
 
         }
 
+       
         private void button1_Click(object sender, EventArgs e)
         {
-            double p, area;
+            //读取输入三角形的边长，利用海伦公式计算三角形面积
+            double area;
             double a = double.Parse(textBox1.Text);
             double b = double.Parse(textBox2.Text);
             double c = double.Parse(textBox3.Text);
             if (radioButton1.Checked)
             {
-                if ((a + b > c) && (a - b < c))
+                if ((a + b > c) && (a+c >b)&&(c+b>a))
                 {
-                    p = (a + b + c) / 2;
-                    area = Math.Sqrt(p * (p - a) * (p - b) * (p - c));
+                    area = AC.Sanjiaoxing(a,b,c);
                     String ret = area.ToString("0.000####");
                     MessageBox.Show("三角形的面积为" + ret + "平方厘米");
                 }
@@ -52,10 +56,9 @@ namespace WindowsFormsApp1
                 a = a * 2.54;
                 b = b * 2.54;
                 c = c * 2.54;
-                if ((a + b > c) && (a - b < c))
+                if ((a + b > c) && (a + c > b) && (c + b > a))
                 {
-                    p = (a + b + c) / 2;
-                    area = Math.Sqrt(p * (p - a) * (p - b) * (p - c));
+                    area = area = AC.Sanjiaoxing(a, b, c);
                     String ret = area.ToString("0.000####");
                     MessageBox.Show("三角形的面积为" + ret + "平方厘米");
                 }
@@ -67,6 +70,7 @@ namespace WindowsFormsApp1
             }
         }
 
+       //返回主界面重新选择图形种类
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
